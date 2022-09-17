@@ -33,6 +33,8 @@ cd mmdetection3d
 pip install -v -e .
 ```
 
+- after exit, to run it next time need to use `docker start [container ID]`
+
 # test
 
 - to test, use 
