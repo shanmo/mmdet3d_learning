@@ -34,6 +34,7 @@ pip install -v -e .
 ```
 
 - after exit, to run it next time need to use `docker start [container ID]`
+  - can use `docker attach [container ID]` to attach to running container 
 
 # test
 
