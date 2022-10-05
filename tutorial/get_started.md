@@ -6,6 +6,7 @@
 
 - https://github.com/open-mmlab/mmdetection3d/issues/438
   - https://github.com/open-mmlab/mmdetection3d/issues/563
+  - refer to [this](https://blog.csdn.net/claram/article/details/104228727) for how to set `-itd` for `docker run`
 
 ```
 nvidia-docker run -it --gpus all --ipc=host --shm-size=8g -p 2022:22 -v /home/sean/mylibs/mmdetection3d:/mmdetection3d -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY nvcr.io/nvidia/pytorch:20.12-py3
